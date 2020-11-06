@@ -1,0 +1,149 @@
+* {
+  --border-radius: 10px;
+  --main-color: rgba(127, 180, 211, 0.514);
+}
+
+.logo-wrapper {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.logo {
+  height: 10vh;
+  width: auto;
+}
+
+.login-wrapper {
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  min-width: 300px;
+  max-width: 50%;
+  padding: 40px;
+  height: 75%;
+  animation: fadeInText 1s;
+  background-color: var(--main-color);
+  border-radius: 20px;
+}
+
+@keyframes fadeInText {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-form {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-page {
+  border-radius: var(--border-radius);
+  display: flex;
+  margin-top: 20px;
+  height: 78vh;
+  margin-left: 15%;
+  margin-right: 15%;
+  min-width: 200px;
+}
+
+.chat {
+  flex-grow: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--main-color);
+  border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+.users {
+  flex-grow: 1;
+  max-width: 140px;
+  width: 30%;
+  border: 1px solid var(--main-color);
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+  padding: 10px;
+  margin-right: 10px;
+}
+.chat-form {
+  display: flex;
+  padding: 10px;
+  width: 90%;
+}
+
+.messages {
+  background-color: rgba(255, 255, 255, 0.623);
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  width: 100%;
+  height: 90%;
+  border-bottom: 1px solid var(--main-color);
+}
+.me,
+.other {
+  word-break: break-all;
+  max-width: 90%;
+  border-radius: 25px;
+  padding: 8px;
+  width: fit-content;
+}
+.other-wrapper {
+  margin-left: 30px;
+}
+
+.event {
+  align-self: center;
+}
+
+.me {
+  margin: 5px;
+
+  background-color: rgb(57, 162, 225);
+  align-self: flex-end;
+}
+.other {
+  background-color: rgb(138, 135, 136);
+}
+.user {
+  padding: 5px;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  .users {
+    display: none;
+  }
+}
+
+.alert-banner {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  width: 60vw;
+}
