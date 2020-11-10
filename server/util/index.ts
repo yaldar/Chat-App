@@ -28,7 +28,7 @@ const getNickname = (id: string) => {
 const writeToFile = (path: string, data: string) => {
   writeFileSync(path, data);
 };
-const addUser = (nickname, id) => {
+const addUser = (nickname: string, id: string) => {
   const user = { nickname, id };
 
   const users = getAllData();

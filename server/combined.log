@@ -3,3 +3,33 @@
 {"message":"User nickname: asdf, with Id: W4n5CQbhUK6gyXXMAAAA disconnected ","level":"info","service":"user-service","timestamp":"2020-10-20T18:03:43.095Z"}
 {"message":"User nickname: nickname, with Id: socket.id disconnected ","level":"info","service":"user-service","timestamp":"2020-11-06T08:23:51.276Z"}
 {"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-06T08:23:55.765Z"}
+{"message":"User nickname: nickname, with Id: socket.id disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:39:59.010Z"}
+{"message":"New user joined, id: 4y6NLt1LHYHXQh2DAAAA, nickname: asdfasdf","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:06.252Z"}
+{"message":"User asdfasdf sent a message \"fasdf\" at 2020-11-10-11-40-7. Socket Id: 4y6NLt1LHYHXQh2DAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:07.114Z"}
+{"message":"User asdfasdf sent a message \"sadf\" at 2020-11-10-11-40-7. Socket Id: 4y6NLt1LHYHXQh2DAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:07.387Z"}
+{"message":"User asdfasdf sent a message \"as\" at 2020-11-10-11-40-7. Socket Id: 4y6NLt1LHYHXQh2DAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:07.612Z"}
+{"message":"User asdfasdf sent a message \"df\" at 2020-11-10-11-40-7. Socket Id: 4y6NLt1LHYHXQh2DAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:07.803Z"}
+{"message":"User asdfasdf sent a message \"sd\" at 2020-11-10-11-40-7. Socket Id: 4y6NLt1LHYHXQh2DAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:07.940Z"}
+{"message":"User nickname: asdfasdf, with Id: 4y6NLt1LHYHXQh2DAAAA disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:17.941Z"}
+{"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:29.267Z"}
+{"message":"User nickname: nickname, with Id: socket.id disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:34.294Z"}
+{"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-10T10:40:39.260Z"}
+{"message":"User nickname: nickname, with Id: socket.id disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:00.152Z"}
+{"message":"New user joined, id: 4BZgWsy6jWl81g8LAAAA, nickname: Yaldar","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:02.522Z"}
+{"message":"User nickname: Yaldar, with Id: 4BZgWsy6jWl81g8LAAAA disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:12.524Z"}
+{"message":"New user joined, id: m35r89WkrnmKKTG8AAAB, nickname: John","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:14.060Z"}
+{"message":"New user joined, id: 7MI31cu-rs9hpM8jAAAC, nickname: Yaldar","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:18.116Z"}
+{"message":"User Yaldar sent a message \"Hi there!\" at 2020-11-10-11-41-20. Socket Id: 7MI31cu-rs9hpM8jAAAC","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:20.517Z"}
+{"message":"User John sent a message \"Hello\" at 2020-11-10-11-41-22. Socket Id: m35r89WkrnmKKTG8AAAB","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:22.873Z"}
+{"message":"User nickname: Yaldar, with Id: 7MI31cu-rs9hpM8jAAAC disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:30.520Z"}
+{"message":"User nickname: John, with Id: m35r89WkrnmKKTG8AAAB disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:41:32.877Z"}
+{"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-10T10:43:30.599Z"}
+{"message":"User nickname: nickname, with Id: socket.id disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:30.015Z"}
+{"message":"New user joined, id: W-nwp2EijRl2rV8yAAAA, nickname: John","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:31.319Z"}
+{"message":"New user joined, id: UjfSfZQeNyEvOM4WAAAB, nickname: Alice","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:34.340Z"}
+{"message":"User Alice sent a message \"Hi!\" at 2020-11-10-11-44-35. Socket Id: UjfSfZQeNyEvOM4WAAAB","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:35.962Z"}
+{"message":"User John sent a message \"Hello There!\" at 2020-11-10-11-44-40. Socket Id: W-nwp2EijRl2rV8yAAAA","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:40.776Z"}
+{"message":"User nickname: John, with Id: W-nwp2EijRl2rV8yAAAA disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:55.389Z"}
+{"message":"User nickname: Alice, with Id: UjfSfZQeNyEvOM4WAAAB disconnected ","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:56.524Z"}
+{"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-10T10:44:59.712Z"}
+{"message":"Shutting down on SIGINT","level":"info","service":"user-service","timestamp":"2020-11-10T10:45:01.213Z"}

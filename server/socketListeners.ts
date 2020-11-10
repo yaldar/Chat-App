@@ -3,12 +3,12 @@ import Socket from 'socket.io';
 import { logger } from './logger';
 import util from './util';
 
-const INACTIVITY_TIMEOUT = 10000; // 10 seconds
+const INACTIVITY_TIMEOUT = 60000; // 10 seconds
 
 const startTimer = (
   io: Socket.Server,
   socket: Socket.Socket,
-  nickname: string,
+  nickname: string | null,
 ) => setTimeout(() => {
   socket.emit('inactivity_disconnect');
   socket.disconnect();
@@ -23,7 +23,7 @@ type MessageType = {
 const createSocketListeners = (io: Socket.Server) => (
   socket: Socket.Socket,
 ) => {
-  let inactivityTimer;
+  let inactivityTimer: NodeJS.Timeout;
 
   socket.on('user_join', (nickname: string) => {
     inactivityTimer = startTimer(io, socket, nickname);

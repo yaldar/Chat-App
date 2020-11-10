@@ -1,12 +1,13 @@
 /* eslint-disable no-console */
 import express from 'express';
+
 import Socket from 'socket.io';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import http from 'http';
-import { logger } from './logger';
-import util from './util';
+import { logger } from './logger/index';
+import util from './util/index';
 import createRouter from './router';
 import createSocketListeners from './socketListeners';
 
@@ -35,11 +36,10 @@ app.use(
 
 io.on('connection', createSocketListeners(io));
 
+type RequestType = { method: any; originalUrl: any; ip: any };
 // eslint-disable-next-line no-unused-vars
-app.use((err, req, res, _next) => {
-  logger.error(
-    `${req.method} - ${err.message}  - ${req.originalUrl} - ${req.ip}`,
-  );
+app.use((err: Error, req: RequestType, res: any, _next: any) => {
+  logger.error(`${req.method} - ${err.message}  - ${req.originalUrl} - ${req.ip}`);
   res.status(500).json({
     message: `Something went wrong fetching the data. Try again later. Internal server error: "${err}"`,
   });
